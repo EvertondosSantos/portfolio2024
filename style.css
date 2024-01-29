@@ -129,6 +129,7 @@ header>.areapcem{
 }
 #apresentacao .banner_texto{
     max-width: 60%;
+    padding-right: 20px;
 }
 #apresentacao h1, h2{
     font-size: 48px;
@@ -256,7 +257,7 @@ header>.areapcem{
     color: #0A66C2;
     font-weight: bold;
     background-color: #ffffffd7;
-    border: #23c960 1px solid;
+    /* border: #23c960 1px solid; */
 }
 .sobre .bloco_sobre_texto .trabalho{
     color:#0A66C2;
@@ -277,21 +278,18 @@ header>.areapcem{
     gap: 15px;
 }
 .bloco_projeto{
-    /* margin: 20px auto; */
     display: block;
-    /* justify-content: space-between; */
-    /* box-shadow: 0px 0px 10px 2px #09080c; */
-    /* padding: 5px 5px 5px 5px; */
+    /* background: rgba(142,173,175,1); */
     border-radius: 10px;
     width: 48%;
-    /* border: #23c960 solid; */
     height: 500px;
+    /* box-shadow: 0 0 20px 1px #00000035; */
 }
 .bloco_projeto .lateral_bloco{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border: 1px springgreen solid;
+    /* border: 1px springgreen solid; */
     height: 40%;
 
 }
@@ -333,24 +331,21 @@ header>.areapcem{
     height: 25%;
     /* border: red solid; */
     display: flex;
-    padding: 7px 0;
+    padding: 8px 0;
 }
 .botoes_projeto a{
     color: #0A66C2;
     margin-right: 10px;
     background-color: #00000035;
     font-weight: bold;
-    padding: 8px;
-    border-radius: 3px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
     transition: 200ms;
 }
 .botoes_projeto a:hover{
-    /* background-color: rgb(219,167,22); */
-    /* color: #09080c; */
     color: white; 
     background-color: #0a66c2c0;
-    padding: 8px;
-    border-radius: 3px;
 }
 .bloco_projeto figure{
     height: 60%;
@@ -373,16 +368,30 @@ header>.areapcem{
     margin: 15px 0px;
 }
 .curso{
+    max-width: 80vw;
     display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
+    align-items: center;
+    /* align-items: flex-end; */
     overflow-x: auto;
     margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    height: 350px;
+    /* border: #23c960 solid; */
 }
 .certificado_curso img{
-    width: 200px;
-    margin-right: 20px;
+    width: 250px;
+    height: 150px;
+    /* margin-right: 20px; */
+    margin: 0 15px;
+    object-fit: cover;
 }
+.certificado_curso img:hover{
+    width: 450px;
+    height: 300px;
+}
+
+
 
 
 
