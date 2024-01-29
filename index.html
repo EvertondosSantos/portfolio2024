@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header id="home">
+    <header id="header">
         <div class="areapcem">
             <a href="#apresentacao">
                 <div class="logo_nome">
@@ -31,10 +31,10 @@
                 <h1>Olá, eu sou o<br><span>Everton dos Santos</span></h1>
                 <p class="profissao"><span>Desenvolvedor Front End</span></p>
                 <nav class="redes_contato">
-                    <a title="WhatsApp" href="http://"><i class="fa-brands fa-whatsapp"></i></a>
                     <a title="GuitHub" href="http://"><i class="fa-brands fa-github"></i></a>
-                    <a title="Linkedin" href="http://"><i class="fa-brands fa-linkedin"></i></a>
                     <a title="Instagram" href="http://"><i class="fa-brands fa-instagram"></i></a>
+                    <a title="Linkedin" href="http://"><i class="fa-brands fa-linkedin"></i></a>
+                    <a title="WhatsApp" href="http://"><i class="fa-brands fa-whatsapp"></i></a>
                     <a title="Curriculum Vitae" href="http://"><i class="fa-regular fa-file-pdf"></i></a>
                 </nav>
             </div>
@@ -46,34 +46,46 @@
     <section id="sobre" class="sobre">
         <div class="areapcem">
             <h2>Sobre mim</h2>
-            <div class="sobre">
-                <div class="bloco_sobre">
-                    <div class="bloco_sobre_texto">
-                        <p class="data">2014 - 2016</p>
-                        <p class="trabalho">Técnico em Eletrotécnica <br>Durante o ensino médio tecnico e após o termino do mesmo eu trabalhei como profissional autonomo, sempre apaixonado por lógica e automação de processos, mas precisava de um emprego estavel e agarrei a oportunidade de ser operador de máquinas.</p>
-                    </div>
+            <div class="blocos_sobre">
+                <div class="bloco_sobre programacao">
                     <figure class="bloco_sobre_imagem">
-                        <img src="imagens/eletrotecnica.jpg" alt="">
+                        <!-- <img src="imagens/programacao (1).jpg" alt=""> -->
                     </figure>
+                    <div class="bloco_sobre_texto">
+                        <!-- <p class="data">Estudante de Programação</p> -->
+                        <p class="trabalho">Estudante de Programação</p>
+                        <p>Meu primeiro contato com programação foi em 2011 em um curso básico de HTML onde confirmei que eu realmente gostava dessa area, em 2019 me encontrei novamente com algo do genero, mas somente em 2022 consegui ter uma constancia nos meus estudos.</p>
+                    </div>
                 </div>
-                <div class="bloco_sobre">
+                <div class="bloco_sobre operador">
                     <figure class="bloco_sobre_imagem">
-                        <img src="imagens/operador de maquinas.jpg" alt="">
+                        <!-- <img src="imagens/operador de maquinas.jpg" alt=""> -->
                     </figure>
                     <div class="bloco_sobre_texto">
-                        <p class="data">2016 - Atualmente</p>
-                        <p class="trabalho">Operador de Máquinas <br>Trabalhar com máquinas pesadas nunca foi o que almejei, mas é e tem sido o serviço que me mantem e me dá condições de estudar o que gosto que é a programação.</p>
+                        <!-- <p class="data">Operador de Máquinas</p> -->
+                        <p class="trabalho">Operador de Máquinas</p>
+                        <p>Trabalhar com máquinas pesadas nunca foi o que almejei, mas é e tem sido o serviço que me mantem e me dá condições de estudar o que gosto que é a programação.</p>
                     </div>
-                
                 </div>
-                <div class="bloco_sobre">
-                    <div class="bloco_sobre_texto">
-                        <p class="data">2022 - Atualmente</p>
-                        <p class="trabalho">Estudante de Programação <br>Meu primeiro contato com programação foi em 2011 em um curso básico de HTML onde confirmei que eu realmente gostava dessa area, em 2019 me encontrei novamente com algo do genero, mas somente em 2022 consegui ter uma constancia nos meus estudos.</p>
-                    </div>
+                <div class="bloco_sobre eletrotecnica">
                     <figure class="bloco_sobre_imagem">
-                        <img src="imagens/programacao (1).jpg" alt="">
+                        <!-- <img src="imagens/eletrotecnica.jpg" alt=""> -->
                     </figure>
+                    <div class="bloco_sobre_texto">
+                        <!-- <p class="data">Técnico em Eletrotécnica</p> -->
+                        <p class="trabalho">Técnico em Eletrotécnica</p>
+                        <p>Durante o ensino médio tecnico e após o termino do mesmo eu trabalhei como profissional autonomo, sempre apaixonado por lógica e automação de processos, mas precisava de um emprego estavel e agarrei a oportunidade de ser operador de máquinas.</p>
+                    </div>
+                </div>
+                <div class="bloco_sobre outros">
+                    <figure class="bloco_sobre_imagem">
+                        <!-- <img src="imagens/eletrotecnica.jpg" alt=""> -->
+                    </figure>
+                    <div class="bloco_sobre_texto">
+                        <!-- <p class="data">Técnico em Eletrotécnica</p> -->
+                        <p class="trabalho">Outras atividades</p>
+                        <p>Eu gosto de estudar, estar sempre aprendendo e sendo desafiado, gosto de quebra-cabeças tridimensionais, xadrez, jogos de mesa de maneira geral e de paintball para variar um pouco, gosto de atividades que envolvam alguma copetição saudavel.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,147 +93,150 @@
     <section id="projetos">
         <div class="areapcem">
             <h2>Projetos</h2>
-            <div class="bloco_projeto">
-                <div class="lateral_bloco">
-                    <div class="texto_projeto">
-                        <p class="nome_projeto">Clinica Medica Life</p>
-                        <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+            <div class="blocos_projetos">
+                <div class="bloco_projeto">
+                    <div class="lateral_bloco">
+                        <div class="texto_projeto">
+                            <p class="nome_projeto">Clinica Medica Life</p>
+                            <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                        </div>
+                        <div class="tecnologias_projeto">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-solid fa-desktop"></i>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <div class="botoes_projeto">
+                            <a href="">Visitar site</a>
+                            <a href="">Ver repositório</a>
+                        </div>
                     </div>
-                    <div class="tecnologias_projeto">
-                        <i class="fa-brands fa-html5"></i>
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <i class="fa-solid fa-desktop"></i>
-                        <i class="fa-solid fa-mobile-screen-button"></i>
 
-                    </div>
-                    <div class="botoes_projeto">
-                        <a href="">Visitar site</a>
-                        <a href="">Ver repositório</a>
-                    </div>
+                    <figure class="imagem_projeto">
+                        <img src="imagens/projeto clinica medica life.jpg" alt="">
+                    </figure>
                 </div>
-                <figure class="imagem_projeto">
-                    <img src="imagens/projeto clinica medica life.jpg" alt="">
-                </figure>
-            </div>
-            <div class="bloco_projeto">
-                <div class="lateral_bloco">
-                    <div class="texto_projeto">
-                        <p class="nome_projeto">LinkBio Neymar Jr.</p>
-                        <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                <div class="bloco_projeto">
+                    <div class="lateral_bloco">
+                        <div class="texto_projeto">
+                            <p class="nome_projeto">LinkBio Neymar Jr.</p>
+                            <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                        </div>
+                        <div class="tecnologias_projeto">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-solid fa-desktop"></i>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <div class="botoes_projeto">
+                            <a href="">Visitar site</a>
+                            <a href="">Ver repositório</a>
+                        </div>
                     </div>
-                    <div class="tecnologias_projeto">
-                        <img src="icones/png/010-arquivo-html.png" alt="" title="HTML">
-                        <img src="icones/png/013-arquivo-css.png" alt="" title="CSS">
-                        <img src="icones/png/002-responsivo-1.png" alt="" title="Responsivo">
-                    </div>
-                    <div class="botoes_projeto">
-                        <a href="">Visitar site</a>
-                        <a href="">Ver repositório</a>
-                    </div>
+                    <figure class="imagem_projeto">
+                        <img src="imagens/ProjetoLinkNeymar.png" alt="">
+                    </figure>
                 </div>
-                <figure class="imagem_projeto">
-                    <img src="imagens/ProjetoLinkNeymar.png" alt="">
-                </figure>
-            </div>
-            <div class="bloco_projeto">
-                <div class="lateral_bloco">
-                    <div class="texto_projeto">
-                        <p class="nome_projeto">Turismo Paraty</p>
-                        <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                <div class="bloco_projeto">
+                    <div class="lateral_bloco">
+                        <div class="texto_projeto">
+                            <p class="nome_projeto">Turismo Paraty</p>
+                            <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                        </div>
+                        <div class="tecnologias_projeto">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <div class="botoes_projeto">
+                            <a href="">Visitar site</a>
+                            <a href="">Ver repositório</a>
+                        </div>
                     </div>
-                    <div class="tecnologias_projeto">
-                        <img src="icones/png/010-arquivo-html.png" alt="" title="HTML">
-                        <img src="icones/png/013-arquivo-css.png" alt="" title="CSS">
-                        <!-- <img src="icones/png/002-responsivo-1.png" alt="" title="Responsivo"> -->
-                    </div>
-                    <div class="botoes_projeto">
-                        <a href="">Visitar site</a>
-                        <a href="">Ver repositório</a>
-                    </div>
+                    <figure class="imagem_projeto">
+                        <img src="imagens/ProjetoParaty.png" alt="">
+                    </figure>
                 </div>
-                <figure class="imagem_projeto">
-                    <img src="imagens/ProjetoParaty.png" alt="">
-                </figure>
-            </div>
-            <div class="bloco_projeto">
-                <div class="lateral_bloco">
-                    <div class="texto_projeto">
-                        <p class="nome_projeto">Café Manhattan</p>
-                        <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                <div class="bloco_projeto">
+                    <div class="lateral_bloco">
+                        <div class="texto_projeto">
+                            <p class="nome_projeto">Café Manhattan</p>
+                            <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                        </div>
+                        <div class="tecnologias_projeto">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <div class="botoes_projeto">
+                            <a href="">Visitar site</a>
+                            <a href="">Ver repositório</a>
+                        </div>
                     </div>
-                    <div class="tecnologias_projeto">
-                        <img src="icones/png/010-arquivo-html.png" alt="" title="HTML">
-                        <img src="icones/png/013-arquivo-css.png" alt="" title="CSS">
-                        <!-- <img src="icones/png/002-responsivo-1.png" alt="" title="Responsivo"> -->
-                    </div>
-                    <div class="botoes_projeto">
-                        <a href="">Visitar site</a>
-                        <a href="">Ver repositório</a>
-                    </div>
+                    <figure class="imagem_projeto">
+                        <img src="imagens/ProjetoCafe.png" alt="">
+                    </figure>
                 </div>
-                <figure class="imagem_projeto">
-                    <img src="imagens/ProjetoCafe.png" alt="">
-                </figure>
-            </div>
-            <div class="bloco_projeto">
-                <div class="lateral_bloco">
-                    <div class="texto_projeto">
-                        <p class="nome_projeto">Imobiliária Santos</p>
-                        <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                <div class="bloco_projeto">
+                    <div class="lateral_bloco">
+                        <div class="texto_projeto">
+                            <p class="nome_projeto">Imobiliária Santos</p>
+                            <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                        </div>
+                        <div class="tecnologias_projeto">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <div class="botoes_projeto">
+                            <a href="">Visitar site</a>
+                            <a href="">Ver repositório</a>
+                        </div>
                     </div>
-                    <div class="tecnologias_projeto">
-                        <img src="icones/png/010-arquivo-html.png" alt="" title="HTML">
-                        <img src="icones/png/013-arquivo-css.png" alt="" title="CSS">
-                        <!-- <img src="icones/png/002-responsivo-1.png" alt="" title="Responsivo"> -->
-                    </div>
-                    <div class="botoes_projeto">
-                        <a href="">Visitar site</a>
-                        <a href="">Ver repositório</a>
-                    </div>
+                    <figure class="imagem_projeto">
+                        <img src="imagens/ProjetoImobiliaria.png" alt="">
+                    </figure>
                 </div>
-                <figure class="imagem_projeto">
-                    <img src="imagens/ProjetoImobiliaria.png" alt="">
-                </figure>
-            </div>
-            <div class="bloco_projeto">
-                <div class="lateral_bloco">
-                    <div class="texto_projeto">
-                        <p class="nome_projeto">AlfaTech hospedagem</p>
-                        <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                <div class="bloco_projeto">
+                    <div class="lateral_bloco">
+                        <div class="texto_projeto">
+                            <p class="nome_projeto">AlfaTech hospedagem</p>
+                            <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                        </div>
+                        <div class="tecnologias_projeto">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <div class="botoes_projeto">
+                            <a href="">Visitar site</a>
+                            <a href="">Ver repositório</a>
+                        </div>
                     </div>
-                    <div class="tecnologias_projeto">
-                        <img src="icones/png/012-html.png" alt="" title="HTML">
-                        <img src="icones/png/014-css.png" alt="" title="CSS">
-                        <!-- <img src="icones/png/002-responsivo-1.png" alt="" title="Responsivo"> -->
-                    </div>
-                    <div class="botoes_projeto">
-                        <a href="">Visitar site</a>
-                        <a href="">Ver repositório</a>
-                    </div>
+                    <figure class="imagem_projeto">
+                        <img src="imagens/ProjetoHospedagem.png" alt="">
+                    </figure>
                 </div>
-                <figure class="imagem_projeto">
-                    <img src="imagens/ProjetoHospedagem.png" alt="">
-                </figure>
-            </div>
-            <div class="bloco_projeto">
-                <div class="lateral_bloco">
-                    <div class="texto_projeto">
-                        <p class="nome_projeto">Filmes da Marvel</p>
-                        <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                <div class="bloco_projeto">
+                    <div class="lateral_bloco">
+                        <div class="texto_projeto">
+                            <p class="nome_projeto">Filmes da Marvel</p>
+                            <p class="explicacao_projeto">Projeto responsivo de site para clínica medica, usando flexbox, mediaquery, hover, e outros. </p>
+                        </div>
+                        <div class="tecnologias_projeto">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <div class="botoes_projeto">
+                            <a href="">Visitar site</a>
+                            <a href="">Ver repositório</a>
+                        </div>
                     </div>
-                    <div class="tecnologias_projeto">
-                        <img src="icones/png/010-arquivo-html.png" alt="" title="HTML">
-                        <img src="icones/png/013-arquivo-css.png" alt="" title="CSS">
-                        <!-- <img src="icones/png/002-responsivo-1.png" alt="" title="Responsivo"> -->
-                    </div>
-                    <div class="botoes_projeto">
-                        <a href="">Visitar site</a>
-                        <a href="">Ver repositório</a>
-                    </div>
+                    <figure class="imagem_projeto">
+                        <img src="imagens/ProjetoMarvel.png" alt="">
+                    </figure>
                 </div>
-                <figure class="imagem_projeto">
-                    <img src="imagens/ProjetoMarvel.png" alt="">
-                </figure>
             </div>
         </div>
     </section>
