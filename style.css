@@ -364,12 +364,13 @@ header>.areapcem{
 
 
 .certificado_curso h3{
-    font-size: 16px;
+    font-size: 24px;
     margin: 15px 0px;
 }
 .curso{
-    max-width: 80vw;
+    width: 100%;
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
     /* align-items: flex-end; */
     overflow-x: auto;
@@ -379,16 +380,74 @@ header>.areapcem{
     height: 350px;
     /* border: #23c960 solid; */
 }
+.bloco_certificados{
+    width: 100%;
+}
+.certificado_curso figure{
+    /* width: 450px; */
+}
 .certificado_curso img{
     width: 250px;
     height: 150px;
     /* margin-right: 20px; */
     margin: 0 15px;
     object-fit: cover;
+    width: 350px;
+    height: 250px;
 }
 .certificado_curso img:hover{
-    width: 450px;
-    height: 300px;
+    /* width: 450px;
+    height: 300px; */
+}
+.certificado_curso figure figcaption{
+    font-size: 14px;
+    padding-top: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+
+.contatos{
+    height: 90vh;
+}
+.contatos .dados_contato{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    padding: 30px;
+    /* border: greenyellow solid; */
+    background: linear-gradient(180deg, rgba(68,127,217,1) 0%, rgba(142,173,175,1) 100%);    color: #ffffffd7;
+    font-weight: 700;
+    color: #ffffffd7;
+}
+.dados_contato a{
+    color: #ffffffd7;
+}
+.dados_contato .meus_dados{
+    width: 60%;
+}
+.dados_contato .meus_dados div{
+    margin-bottom: 15px;
+}
+.dados_contato .meus_dados div p:nth-child(2),
+.dados_contato .meus_dados div a:nth-child(2),
+.dados_contato .meus_dados div nav a{
+    font-size: 24px;
+    line-height: calc(24px * 1.6);
+}
+
+.dados_contato form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* border: red solid; */
+}
+.dados_contato form input,
+.dados_contato form textarea{
+    padding: 5px;
+    margin: 5px;
+    background: #ffffff42;
 }
 
 
@@ -400,6 +459,19 @@ header>.areapcem{
 
 
 
-footer div{
-    font-size: 8px;
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A66C2;
+    color: #ffffffd7;
+    font-weight: 700;
+    font-size: 12px;
 }
+
+
+
+
+
