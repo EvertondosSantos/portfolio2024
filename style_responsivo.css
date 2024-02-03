@@ -2,19 +2,20 @@
     .areapcem{
         width: 90%;
     }
-    #apresentacao *{
-        /* border: 0.5px red solid; */
-    }
+
     header div>a{
         display: none;
     }
     .header_links{
         width: 100%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
     #apresentacao figure{
-        max-width: 90%;
+        max-width: 395px;
         margin-top: 15px;
     }
     #apresentacao .banner_texto{
@@ -28,29 +29,90 @@
         font-size: 42px;
         color: #0A66C2;
     }
-    #apresentacao .redes_contato svg{
-        color:#28447f;
-    }
-
-
-
-
-
     #apresentacao .areapcem{
         flex-direction:column-reverse;
     }
+    
     .sobre .bloco_sobre_texto{
-        width: 80%;
-        margin: 0 auto;
+        width: 85%;
+        margin: 65px auto;
+        padding: 0 10px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .sobre .bloco_sobre_texto p{
+        margin: 10px auto;
+    }
+    
+    #projetos *{
+        /* border: 0.5px red solid; */
     }
     .bloco_projeto{
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
     }
     .bloco_projeto svg{
         padding-top: 15px;
     }
-    .contatos{
-        display: none;
+    .bloco_projeto .lateral_bloco{
+        height: 230px;
     }
+    .bloco_projeto figure{
+        height: auto;
+        max-width: 400px;
+        /* border: red solid; */
+    }
+    .botoes_projeto{
+        height: 50px;
+    }
+    .botoes_projeto a{
+        color: white; 
+        background-color: #0a66c2c0;
+        font-weight: normal;
+    }
+    .curso{
+        height: 300px;
+        overflow-x: visible scroll;
+    }
+    .certificado_curso img{
+        /* margin-right: 20px; */
+        margin: 0 15px;
+        object-fit: cover;
+        width: 250px;
+        height: 200px;
+    }
+    .contatos *{
+        /* border: solid red 0.5px; */
+    }
+    .contatos{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .contatos .dados_contato{
+        flex-direction: column;
+        padding: 8px 15px;
+    }
+    .dados_contato .meus_dados, .dados_contato form{
+        width: 100%;
+    }
+    .dados_contato .meus_dados div{
+        margin-bottom: 8px;
+    }
+    .dados_contato .meus_dados div p:nth-child(2),
+.dados_contato .meus_dados div a:nth-child(2){
+    font-size: 18px;
+    line-height: calc(20px * 1.6);
+    margin-left: 10px;
+}
+.dados_contato .meus_dados div nav svg{
+    font-size: 28px;
+    line-height: 32px;
+}
+.dados_contato .meus_dados>p{
+    margin: 5px 0px 20px 0px;
+}
+.dados_contato .botao_enviar{
+    margin: 10px 0px;
+}
 }

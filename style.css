@@ -163,7 +163,7 @@ header>.areapcem{
     /* background-color: transparent; */
     height: 36px;
     margin: 0 2px;
-    color: rgba(142,173,175,1);
+    color:#28447f;
     /* padding-bottom: 10px; */
     /* border-bottom: #00000035 5px solid; */
     /* border-radius: 0 0 5px 5px ; */
@@ -171,6 +171,7 @@ header>.areapcem{
     /* box-shadow: 0px -10px 5px -8px inset; */
     /* mask-mode: alpha; */
 }
+
 #apresentacao .redes_contato .fa-whatsapp:hover,.fa-whatsapp:hover{
     color:#23c960;
 }
@@ -219,20 +220,23 @@ header>.areapcem{
     background-position: center;
 }
 
-.bloco_sobre_texto{
-    /* padding: 50px 50px; */
-}
+
 .sobre .bloco_sobre_texto{
-    margin: 50px 150px;
-    padding: 15px;
+    margin: 100px 150px;
+    padding: 25px 40px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     /* color: rgba(142,173,175,1); */
     color: #0A66C2;
-    font-weight: bold;
     background-color: #ffffffd7;
     /* border: #23c960 1px solid; */
+}
+.sobre .bloco_sobre_texto p{
+    margin: 20px auto;
+}
+.sobre .bloco_sobre_texto p span{
+    font-weight: bold;
 }
 .sobre .bloco_sobre_texto .trabalho{
     color:#0A66C2;
@@ -253,9 +257,9 @@ header>.areapcem{
     gap: 15px;
 }
 .bloco_projeto{
-    display: block;
+    /* display: block; */
     /* background: rgba(142,173,175,1); */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     width: 48%;
     height: 500px;
     /* box-shadow: 0 0 20px 1px #00000035; */
@@ -266,7 +270,6 @@ header>.areapcem{
     justify-content: flex-start;
     /* border: 1px springgreen solid; */
     height: 40%;
-
 }
 .texto_projeto{
     /* border: blue solid; */
@@ -362,8 +365,6 @@ header>.areapcem{
     /* width: 450px; */
 }
 .certificado_curso img{
-    width: 250px;
-    height: 150px;
     /* margin-right: 20px; */
     margin: 0 15px;
     object-fit: cover;
@@ -421,9 +422,13 @@ header>.areapcem{
 }
 .dados_contato form input,
 .dados_contato form textarea{
+    /* max-width: 390px; */
+    /* max-height: 76px; */
     padding: 5px;
     margin: 5px;
     background: #ffffffd7;
+    resize: none;
+    border: none;
 }
 .dados_contato .botao_enviar{
     width: 100%;
