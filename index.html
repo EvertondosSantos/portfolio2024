@@ -6,6 +6,7 @@
     <title>Everton dos Santos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style_responsivo.css">
 </head>
 <body>
     <header id="header">
@@ -491,7 +492,13 @@
                     </div>
                     <div class="contato_redes-sociais">
                         <p>Redes Sociais:</p>
-                        <nav><a href="">GitHub</a> <a href="">Instagram</a> <a href="">Linkedin</a> <a href="">WhatsApp</a></nav>
+                        <nav class="redes_contato">
+                            <a title="GuitHub" href="http://"><i class="fa-brands fa-github"></i></a>
+                            <a title="Instagram" href="http://"><i class="fa-brands fa-instagram"></i></a>
+                            <a title="Linkedin" href="http://"><i class="fa-brands fa-linkedin"></i></a>
+                            <a title="WhatsApp" href="http://"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a title="Curriculum Vitae" href="http://"><i class="fa-regular fa-file-pdf"></i></a>
+                        </nav>
                     </div>
                     <p>Obrigado por visitar minha página!<br>Deixe sua mensagem.</p>
                 </div>
@@ -514,7 +521,7 @@
                     <label for="texto">Mensagem:</label>
                     <textarea name="message" id="texto" placeholder="Escreva aqui a sua mensagem" cols="30" rows="4" required></textarea>
 
-                    <button type="submit" value="submit">Enviar</button>
+                    <button class="botao_enviar" type="submit" value="submit">Enviar</button>
                 </form>
             </div>
             

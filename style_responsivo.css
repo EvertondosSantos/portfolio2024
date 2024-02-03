@@ -1,0 +1,56 @@
+@media (max-width: 910px) {
+    .areapcem{
+        width: 90%;
+    }
+    #apresentacao *{
+        /* border: 0.5px red solid; */
+    }
+    header div>a{
+        display: none;
+    }
+    .header_links{
+        width: 100%;
+    }
+
+
+    #apresentacao figure{
+        max-width: 90%;
+        margin-top: 15px;
+    }
+    #apresentacao .banner_texto{
+        max-width: 100%;
+        padding: 0;
+    }
+    #apresentacao h1, h2{
+        font-size: 32px;
+    }
+    #apresentacao h1 span{
+        font-size: 42px;
+        color: #0A66C2;
+    }
+    #apresentacao .redes_contato svg{
+        color:#28447f;
+    }
+
+
+
+
+
+    #apresentacao .areapcem{
+        flex-direction:column-reverse;
+    }
+    .sobre .bloco_sobre_texto{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bloco_projeto{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bloco_projeto svg{
+        padding-top: 15px;
+    }
+    .contatos{
+        display: none;
+    }
+}

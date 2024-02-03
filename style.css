@@ -171,19 +171,19 @@ header>.areapcem{
     /* box-shadow: 0px -10px 5px -8px inset; */
     /* mask-mode: alpha; */
 }
-#apresentacao .redes_contato .fa-whatsapp:hover{
+#apresentacao .redes_contato .fa-whatsapp:hover,.fa-whatsapp:hover{
     color:#23c960;
 }
-#apresentacao .redes_contato .fa-github:hover{
+#apresentacao .redes_contato .fa-github:hover,.fa-github:hover{
     color: #410093;
 }
-#apresentacao .redes_contato .fa-linkedin:hover{
+#apresentacao .redes_contato .fa-linkedin:hover,.fa-linkedin:hover{
     color: #0A66C2;
 }
-#apresentacao .redes_contato .fa-instagram:hover{
+#apresentacao .redes_contato .fa-instagram:hover,.fa-instagram:hover{
     color: #e1306c;
 }
-#apresentacao .redes_contato .fa-file-pdf:hover{
+#apresentacao .redes_contato .fa-file-pdf:hover,.fa-file-pdf:hover{
     color: #CD201F;
 }
 
@@ -410,6 +410,7 @@ header>.areapcem{
 .dados_contato .meus_dados div nav a{
     font-size: 24px;
     line-height: calc(24px * 1.6);
+    margin-left: 10px;
 }
 
 .dados_contato form{
@@ -422,7 +423,23 @@ header>.areapcem{
 .dados_contato form textarea{
     padding: 5px;
     margin: 5px;
-    background: #ffffff42;
+    background: #ffffffd7;
+}
+.dados_contato .botao_enviar{
+    width: 100%;
+    /* margin: 0 25%; */
+    color: #0A66C2;
+    margin-right: 10px;
+    background-color: #ffffffd7;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 200ms;
+}
+.dados_contato .botao_enviar:hover{
+    color: white; 
+    background-color: #0a66c2c0;
 }
 
 
@@ -437,25 +454,5 @@ footer{
     font-size: 12px;
 }
 
-
-@media (max-width: 910px) {
-    .areapcem{
-        width: 90%;
-    }
-    #apresentacao .areapcem{
-        flex-direction:column-reverse;
-    }
-    .sobre .bloco_sobre_texto{
-        width: 80%;
-        margin: 0 auto;
-    }
-    .bloco_projeto{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .bloco_projeto svg{
-        padding-top: 15px;
-    }
-}
 
 
