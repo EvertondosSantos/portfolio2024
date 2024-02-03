@@ -498,19 +498,21 @@
                 <form action="https://api.staticforms.xyz/submit" method="post">
                     <!-- CONFIGURAÇÕES PARA O FORMULÁRIO -->
                     <input type="hidden" name="accessKey" value="d64042a1-019c-48b8-b88a-5568bb2d40f5"> <!--Chave de configuração-->
-                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#apresentacao"> <!-- URL da página a ser direcionada -->
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/resposta.html"> <!-- URL da página a ser direcionada -->
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="text" name="honeypot" style="display: none;">
 
                     <label for="nome">Nome:</label>
                     <input id="nome" name="name" type="text" placeholder="Seu nome" required>
 
                     <label for="telefone">Telefone:</label>
-                    <input id="telefone" name="phone" type="tel" placeholder="+55 2199999-9999" required>
+                    <input id="telefone" name="phone" type="tel" placeholder="+55 2199999-9999">
 
                     <label for="email">E-mail:</label>
                     <input id="email" name="email" type="email" placeholder="seuemail@email.com" required>
 
                     <label for="texto">Mensagem:</label>
-                    <textarea name="message" id="texto" placeholder="Escreva aqui a sua mensagem" cols="30" rows="10" required></textarea>
+                    <textarea name="message" id="texto" placeholder="Escreva aqui a sua mensagem" cols="30" rows="4" required></textarea>
 
                     <button type="submit" value="submit">Enviar</button>
                 </form>

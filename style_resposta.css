@@ -1,0 +1,11 @@
+body{
+    overflow: hidden;
+}
+.redes_contato{
+    flex-direction: column;
+    position: absolute;
+    right: 300px;
+    top: 25%;
+    /* border: red solid; */
+    height: 50%;
+}

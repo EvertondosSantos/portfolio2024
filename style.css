@@ -218,32 +218,7 @@ header>.areapcem{
     background-attachment: fixed;
     background-position: center;
 }
-/* .sobre .programacao{
-    background-image: url("imagens/pexels-kevin-ku-577585.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-} */
-/* .sobre .operador{
-    background-image: url("imagens/pexels-kevin-ku-577585.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-} */
 
-/* .sobre .bloco_sobre figure{
-    width: 200px;
-    height: 150px;
-} */
-/* .bloco_sobre figure img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    object-position: bottom;
-} */
 .bloco_sobre_texto{
     /* padding: 50px 50px; */
 }
@@ -451,15 +426,6 @@ header>.areapcem{
 }
 
 
-
-
-
-
-
-
-
-
-
 footer{
     height: 10vh;
     display: flex;
@@ -472,6 +438,24 @@ footer{
 }
 
 
-
+@media (max-width: 910px) {
+    .areapcem{
+        width: 90%;
+    }
+    #apresentacao .areapcem{
+        flex-direction:column-reverse;
+    }
+    .sobre .bloco_sobre_texto{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bloco_projeto{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bloco_projeto svg{
+        padding-top: 15px;
+    }
+}
 
 
