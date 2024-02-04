@@ -48,7 +48,7 @@
     }
     
     #projetos *{
-        border: 0.5px red solid;
+        /* border: 0.5px red solid; */
     }
     .blocos_projetos{
         flex-direction: column;
