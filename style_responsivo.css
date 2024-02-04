@@ -47,9 +47,6 @@
         margin: 10px auto;
     }
     
-    #projetos *{
-        /* border: 0.5px red solid; */
-    }
     .blocos_projetos{
         flex-direction: column;
         justify-content: center;
@@ -84,14 +81,10 @@
         overflow-x: visible scroll;
     }
     .certificado_curso img{
-        /* margin-right: 20px; */
         margin: 0 15px;
         object-fit: cover;
         width: 250px;
         height: 200px;
-    }
-    .contatos *{
-        /* border: solid red 0.5px; */
     }
     .contatos{
         height: auto;

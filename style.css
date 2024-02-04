@@ -12,12 +12,9 @@ html{
 body{
     width: 100%;
     background-color:#ecf1f4;
-    /* background-color: #0a66c298; */
-    /* scroll-behavior: smooth; */
 }
 section{
     padding-top: 40px;
-    /* padding-bottom: 30px; */
 }
 .areapcem{
     width: 70%;
@@ -57,7 +54,6 @@ header>.areapcem{
     color: #0A66C2;
     font-weight: 600;
     font-size: 16px;
-    /* border: 1px springgreen solid; */
 }
 .logo_nome:hover{
     color: #0A66C2;
@@ -74,7 +70,6 @@ header>.areapcem{
     align-items: center;
     justify-content: space-between;
     width: 40%;
-    /* border: 1px springgreen solid; */
 }
 .header_links a/*, .botoes_projeto a*/{
     color: #0A66C2;
@@ -95,7 +90,6 @@ header>.areapcem{
 /* ....... Apresentação ....... */
 #apresentacao{
     padding-top: 0px;
-    /* background: linear-gradient(180deg, rgba(63,94,251,1) 0%, rgba(70,252,251,1) 100%); */
     background: linear-gradient(180deg, rgba(68,127,217,1) 0%, rgba(142,173,175,1) 100%);
     background-attachment: fixed;
     border-bottom: #00000035 0.5px solid;
@@ -124,44 +118,29 @@ header>.areapcem{
 }
 #apresentacao h1, h2{
     font-size: 48px;
-    /* color: #558cc4; */
     color: rgba(142,173,175,1);
     cursor: default;
     font-weight: bold;
-    /* text-shadow: 1px 1px 0px black; */
 }
 #apresentacao h1 span{
     font-size: 56px;
     color: #0A66C2;
-    /* color: #183863ff; */
 }
 #apresentacao p{
     font-size: 20px;
     color: #0A66C2;
     font-weight: 700;
     cursor: default;
-    /* text-shadow: 1px 1px 0px rgb(61, 61, 61); */
 }
 #apresentacao .banner_texto nav{
     margin-top: 32px;
     display: flex;
     justify-content: space-evenly;
 }
-#apresentacao .redes_contato{
-    /* background-color: transparent; */
-    /* mask-border: unset; */
-}
 #apresentacao .redes_contato svg{
-    /* background-color: transparent; */
     height: 36px;
     margin: 0 2px;
     color:#28447f;
-    /* padding-bottom: 10px; */
-    /* border-bottom: #00000035 5px solid; */
-    /* border-radius: 0 0 5px 5px ; */
-    /* border-radius: 15%; */
-    /* box-shadow: 0px -10px 5px -8px inset; */
-    /* mask-mode: alpha; */
 }
 
 #apresentacao .redes_contato .fa-whatsapp:hover,.fa-whatsapp:hover{
@@ -183,10 +162,6 @@ header>.areapcem{
 
 
 /*   .......   Sobre   .......   */
-#sobre{
-    /* height: 100vh; */
-    /* display: none; */
-}
 #sobre .areapcem{
     height: 100%;
 }
@@ -195,9 +170,6 @@ header>.areapcem{
     flex-direction: column;
     width: 100%;
     gap: 15px;
-    /* margin-top: 20px; */
-    /* padding-bottom: 30px; */
-    /* border: #23c960 solid; */
 }
 .sobre .bloco_sobre{
     display: flex;
@@ -219,10 +191,8 @@ header>.areapcem{
     border-radius: 15px;
     font-size: 18px;
     line-height: 30px;
-    /* color: rgba(142,173,175,1); */
     color: #0A66C2;
     background-color: #ffffffd7;
-    /* border: #23c960 1px solid; */
 }
 .sobre .bloco_sobre_texto p{
     margin: 20px auto;
@@ -238,43 +208,31 @@ header>.areapcem{
 
 
 /* .......    Projetos    ....... */
-#projetos{
-    
-}
 .blocos_projetos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: #23c960 solid; */
     gap: 15px;
 }
 .bloco_projeto{
-    /* display: block; */
-    /* background: rgba(142,173,175,1); */
-    /* border-radius: 10px; */
     width: 48%;
     height: 500px;
-    /* box-shadow: 0 0 20px 1px #00000035; */
 }
 .bloco_projeto .lateral_bloco{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* border: 1px springgreen solid; */
     height: 40%;
 }
 .texto_projeto{
-    /* border: blue solid; */
     height: 55%;
 }
 
 .bloco_projeto p:first-child{
     font-weight: 600;
-    /* color: rgba(142,173,175,1); */
     margin-top: 10px;
     font-size: 24px;
     line-height: 160%;
-    /* text-shadow: 0.5px 0.5px 10px #00000035; */
 }
 .bloco_projeto p:last-child{
     font-size: 16px;
@@ -282,7 +240,6 @@ header>.areapcem{
 }
 
 .tecnologias_projeto{
-    /* border: grey solid; */
     height: 20%;
     display: flex;
     justify-content: flex-start;
@@ -299,7 +256,6 @@ header>.areapcem{
 }
 .botoes_projeto{
     height: 25%;
-    /* border: red solid; */
     display: flex;
     padding: 8px 0;
 }
@@ -319,14 +275,11 @@ header>.areapcem{
 }
 .bloco_projeto figure{
     height: 60%;
-    /* border: red solid; */
 }
 .bloco_projeto figure img{
     width: 100%;
-    /* margin: auto; */
     object-fit: cover;
     border-radius: 15px;
-    /* border: 2px solid #566246ff; */
 }
 
 
@@ -340,32 +293,22 @@ header>.areapcem{
 .curso{
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
-    /* align-items: flex-end; */
     overflow-x: auto;
     margin-bottom: 20px;
     font-size: 12px;
     text-align: center;
     height: 350px;
-    /* border: #23c960 solid; */
 }
 .bloco_certificados{
     width: 100%;
 }
-.certificado_curso figure{
-    /* width: 450px; */
-}
+
 .certificado_curso img{
-    /* margin-right: 20px; */
     margin: 0 15px;
     object-fit: cover;
     width: 350px;
     height: 250px;
-}
-.certificado_curso img:hover{
-    /* width: 450px;
-    height: 300px; */
 }
 .certificado_curso figure figcaption{
     font-size: 14px;
@@ -381,10 +324,7 @@ header>.areapcem{
 }
 .contatos .dados_contato{
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
     padding: 30px;
-    /* border: greenyellow solid; */
     background: linear-gradient(180deg, rgba(68,127,217,1) 0%, rgba(142,173,175,1) 100%);    color: #ffffffd7;
     font-weight: 700;
     color: #ffffffd7;
@@ -410,12 +350,9 @@ header>.areapcem{
     display: flex;
     flex-direction: column;
     width: 40%;
-    /* border: red solid; */
 }
 .dados_contato form input,
 .dados_contato form textarea{
-    /* max-width: 390px; */
-    /* max-height: 76px; */
     padding: 5px;
     margin: 5px;
     background: #ffffffd7;
