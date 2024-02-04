@@ -1,4 +1,7 @@
 @media (max-width: 910px) {
+    body{
+        overflow: auto;
+    }
     .areapcem{
         width: 90%;
     }
