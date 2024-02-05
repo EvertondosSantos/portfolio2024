@@ -226,9 +226,7 @@ header>.areapcem{
     justify-content: space-between;
     gap: 15px;
 }
-.bloco_projeto *{
-    border: 0.5px solid red;
-}
+
 .bloco_projeto{
     width: 48%;
     height: 500px;

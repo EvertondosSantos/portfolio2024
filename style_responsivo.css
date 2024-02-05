@@ -33,7 +33,6 @@
     }
     #apresentacao h1 span{
         font-size: 42px;
-        color: #0A66C2;
     }
     #apresentacao .areapcem{
         flex-direction:column-reverse;
