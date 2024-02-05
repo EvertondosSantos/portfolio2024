@@ -118,17 +118,27 @@ header>.areapcem{
 }
 #apresentacao h1, h2{
     font-size: 48px;
-    color: rgba(142,173,175,1);
+    /* color: #8eadaf; */
+    color: #042c68;
+    /* color: #1A8FE3; */
+    /* color: #E53D00; */
     cursor: default;
     font-weight: bold;
 }
 #apresentacao h1 span{
     font-size: 56px;
-    color: #0A66C2;
+    /* color: #0A66C2; */
+    /* color: #e28527; */
+    /* color: #ff822e; */
+    color: #ffab3d;
+    /* color: #ff8b3d; */
+    /* font-weight: bolder; */
+    /* text-shadow: 0.5px 0.5px 0px black; */
 }
 #apresentacao p{
     font-size: 20px;
-    color: #0A66C2;
+    /* color: #0A66C2; */
+    color: #042c68;
     font-weight: 700;
     cursor: default;
 }
@@ -144,16 +154,18 @@ header>.areapcem{
 }
 
 #apresentacao .redes_contato .fa-whatsapp:hover,.fa-whatsapp:hover{
-    color:#23c960;
+    color: #53d632;
 }
 #apresentacao .redes_contato .fa-github:hover,.fa-github:hover{
-    color: #410093;
+    color: #5600be;
+    /* color: #a83dff; */
 }
 #apresentacao .redes_contato .fa-linkedin:hover,.fa-linkedin:hover{
-    color: #0A66C2;
+    color: #0d78e2;
+
 }
 #apresentacao .redes_contato .fa-instagram:hover,.fa-instagram:hover{
-    color: #e1306c;
+    color: #f33272;
 }
 #apresentacao .redes_contato .fa-file-pdf:hover,.fa-file-pdf:hover{
     color: #CD201F;
@@ -214,6 +226,9 @@ header>.areapcem{
     justify-content: space-between;
     gap: 15px;
 }
+.bloco_projeto *{
+    border: 0.5px solid red;
+}
 .bloco_projeto{
     width: 48%;
     height: 500px;
@@ -225,17 +240,17 @@ header>.areapcem{
     height: 40%;
 }
 .texto_projeto{
-    height: 55%;
+    height: auto;
 }
 
 .bloco_projeto p:first-child{
     font-weight: 600;
     margin-top: 10px;
     font-size: 24px;
-    line-height: 160%;
+    line-height: 38px;
 }
 .bloco_projeto p:last-child{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 160%;
 }
 
